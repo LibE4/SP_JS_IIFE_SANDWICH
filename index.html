@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SandwichMaker</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<form>
+		<div id="bread">Bread:
+			<select  id="bread" name="bread">
+			  <option value="noBread">No Bread</option> 
+			  <option value="brownBread">Brown Bread</option> 
+			  <option value="whiteBread">White Bread</option> 
+			</select>
+		</div>
+		<div>Meat:
+			<select  id="meat" name="meat" multiple>
+			  <option value="beef">Beef</option> 
+			  <option value="turkey">Turkey</option> 
+			  <option value="bacon">Bacon</option>
+			  <option value="noMeat">No Meat</option>
+			</select>
+		</div>
+		<div>Cheese:
+			<select  id="cheese" name="cheese" multiple>
+			  <option value="cheeseA">Cheese A</option> 
+			  <option value="cheeseB">Cheese B</option> 
+			  <option value="cheeseC">Cheese C</option>
+			  <option value="noCheese">No Cheese</option>
+			</select>
+		</div>
+
+		<div id="condiments">Condiments:
+			<select  id="condiments" name="condiments" multiple>
+			  <option value="condimentsA">Condiments A</option> 
+			  <option value="condimentsB">condiments B</option> 
+			  <option value="condimentsC">Condiments C</option>
+			  <option value="noCondiments">No Condiments</option>
+			</select>
+		</div>
+
+		<div id="veggies">Veggies:
+			<select  id="veggies" name="veggies" multiple>
+			  <option value="tomato">Tomato</option> 
+			  <option value="lettuce">Lettuce</option> 
+			  <option value="greenpepper">Green Pepper</option>
+			  <option value="noVeggies">No Veggies</option>
+			</select>
+		</div>
+		<button id="checkout">Checkout</button>
+	</form>
+
+	<div id="sandwich">
+
+	</div>
+
+
+	<script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+	<script type="text/javascript" src="javascripts/Meat.js"></script>
+	<script type="text/javascript" src="javascripts/Bread.js"></script>
+	<script type="text/javascript" src="javascripts/Cheese.js"></script>
+	<script type="text/javascript" src="javascripts/Condiments.js"></script>
+	<script type="text/javascript" src="javascripts/Veggies.js"></script>
+	<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+</body>
+</html>

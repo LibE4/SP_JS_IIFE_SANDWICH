@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	background-color: lightgrey;
+}
+
+div,
+button {
+	background-color: lightgreen;
+	font-weight: bold;
+	margin-top: 1em;
+}
